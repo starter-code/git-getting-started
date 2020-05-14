@@ -24,3 +24,9 @@ https://github.com/
   - https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 You can now clone/push/pull/etc repositories from github without signing in every time!
+
+Example Commands:
+git add
+git commit
+git push
+
