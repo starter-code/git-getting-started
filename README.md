@@ -1,17 +1,17 @@
 ## Getting Started with Git
 
-#### Sign up for github
+#### Sign Up for Github
 
 https://github.com/
 
-#### Setup SSH
+#### Setup SSH with Github
 
-- open terminal
-- do command: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
-- press enter through enter pass phrase prompts
-- do command: `pbcopy < ~/.ssh/id_rsa.pub`
-  - copies SSH key onto clipboard, CMD + V (mac) or CTRL + V (windows) to paste
-- hook up SSH key with github
+- Open terminal
+- Do command: `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+- Press enter through enter pass phrase prompts
+- Do command: `pbcopy < ~/.ssh/id_rsa.pub`
+  - Copies SSH key onto clipboard, CMD + V (mac) or CTRL + V (windows) to paste
+- Hook up SSH key with github
 
   - Go to profile > settings https://github.com/settings/profile
   - Go to SSH and GPG Keys
@@ -20,7 +20,8 @@ https://github.com/
   - Paste Key
   - Click Add SSH Key
 
-- references:
-  - https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+#### References:
+
+- https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 You can now clone/push/pull/etc repositories from github without signing in every time!
